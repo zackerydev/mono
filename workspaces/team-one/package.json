@@ -1,12 +1,14 @@
 {
-  "name": "mono",
+  "name": "team-one",
   "version": "1.0.0",
-  "description": "Mono repo for testing out different npm installation methods",
+  "description": "Mono repo for team one",
   "main": "index.js",
   "workspaces": [
+    "*",
     "packages/*"
   ],
   "scripts": {
+    "preinstall": "ln -sf ../../packages ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
