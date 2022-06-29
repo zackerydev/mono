@@ -1,0 +1,22 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "description": "Mono repo for testing out different npm installation methods",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgriesinger/mono.git"
+  },
+  "author": "zgriesinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgriesinger/mono/issues"
+  },
+  "homepage": "https://github.com/zgriesinger/mono#readme"
+}
